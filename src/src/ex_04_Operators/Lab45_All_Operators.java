@@ -1,0 +1,37 @@
+package src.ex_04_Operators;
+
+public class Lab45_All_Operators {
+
+    static void main(String[] args) {
+
+        boolean b1= true;
+
+        int a = 10;
+        int b = 20;
+
+        System.out.println(a+b);
+        System.out.println(a>b);
+        System.out.println(a>=b);
+        System.out.println(a==b);
+        System.out.println(a!=b);
+
+        // Arithmetic Operators
+        // +,-,%,/,*
+
+        //Compound Assignment Operators
+        int age = 28;
+       // age += 28;  // += -> age+28;
+       // age -= 28;  // -= -> age-28;
+          age /= 28;  // /= -> age/28;
+        System.out.println(age);
+
+
+        //  Optional to learn - Digital Electronics
+        // Bitwise - Not important for Automation
+        //
+        // ~ - Bitwise Not,
+        // >> - Right Shift
+        // << - Left Shift
+        // ^ - XOR
+    }
+}
